@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da aba de navegação -->
+    <title>G&TO - Uma nova casa de Moda ESG com roupas com estilo Natural Esportivo</title>
+    <!-- Colocando imagem na aba do navegador -->
+    <link rel="icon" href="./img/& (1).png">
+    <!-- Colocando descrição no site -->
+    <meta name="description" content="Site de lançamento estratégico da marca G&TO">
+    <!-- Link com o CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Importando icones do font awesome -->
+    <script src="https://kit.fontawesome.com/f8c8b95ca7.js" crossorigin="Uma casa de moda comprometida com o movimeto ESG, focada em roupas
+    no Estilo Natural Esportivo para quem busca por roupas confortáveis e despojadas."></script>
+    <!-- Mensagem de alerta antes de enviar o email -->
+    <script>
+        function mensagem() {
+            alert("Você será redirecionado para o seu servidor de email,caso não esteja logado no se email, efetue o login e tente novamente")
+        }
+
+        function click_menu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function tamanho_site() {
+            if (window.innerWidth > 768) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+    </script>
+</head>
+
+<body onresize="tamanho_site()">
+    <header>
+        <nav class="alinhamento">
+            <a class=link_logo href="#">
+                <img class='logo' src="img/LOGO_G&TO_EXP_LOGO_SEM_FRASE.png"
+                    alt="O logotipo da Jeito é composto apenas de letras no estilo sem serifa, modernas e condensadas, as cores utilizadas são branco e bege, o logo está em fundo verde">
+            </a>
+            <ul class="menu" id="itens">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#quem_somos">Sobre</a></li>
+                <li> <a href="#conheca_esg">Conheça a ESG</a></li>
+                <!-- <li> <a href="#">Camisetas & Camisas </a></li>
+                <li> <a href="#">Calças & Bermudas & Shorts</a></li>
+                <li> <a href="#">Outono Inverno</a></li> -->
+                <li> <a href="#contato">Contato</a></li>
+            </ul>
+
+            <!-- Menu de hambúrguer-->
+            <i id="burguer" class="fa-solid fa-bars" onclick="click_menu()"></i>
+
+        </nav>
+    </header>
+    <main>
+
+        <h1>Página início da Jeito</h1>
+
+        <!-- MENU DE INTERAÇÃO -->
+
+<!-- 
+        <section class="alinhamento interacoes">
+
+            <div class="barradebusca">
+                <input class="borda test" type="text"></input>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="iconesinterativos">
+                <div class="interect_info">
+                    <div class="interect">
+                        <i class="fa-solid fa-filter"></i>
+                    </div>
+
+                    <div class="interect">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                    <div class="interect">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div class="interect">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </section> -->
+
+        <!--Quem Somos?-->
+        <section class="quem_somos alinhamento" id="quem_somos">
+            <img class="primeira_foto" src="./img/MOCKUP_LOJA.png"
+                alt="A imagem mostra uma mãe com a filha em um parque, elas estão usando roupas combinando, uma camiseta braca com folhas verdes e shorts jeans, a mãe está sentada recebendo um beijo da filha">
+
+            <div class="sobre">
+                <p class="sobre_titulo">Olá, somos a G&TO!</p>
+                <p class="sobre_texto">Uma casa de moda comprometida com o movimeto ESG, focada em roupas
+                    no Estilo Natural Esportivo para quem busca por roupas confortáveis e despojadas.</p>
+                <button class="btn_esg">
+                    <a href="#conheca_esg">Conheça a ESG</a>
+                </button>
+            </div>
+        </section>
+
+
+        <!--Data de lançamento-->
+        <section class="data">
+            <p>Lançamento da <span>g&to</span> Nerd</p>
+            <p class="subtitulo_lancamento">Edição limitada! Últimas peças!</p>
+        </section>
+
+
+        <!--Imagens-->
+        <section class="imagens">
+            <div class="imgs alinhamento">
+
+                <img src="./img/G&TO BANNER NERD 1 (1) copiar.png"
+                    alt="A imagem mostra uma mulher sentada em uma mesa, ela usa óculos escuros, uma camisa moderna com formas geométricas, calça jeans e bota branca. A modelo segura um buquè de flores amarelas.">
+
+            </div>
+        </section>
+
+        <!-- ESG -->
+        <section class="esg alinhamento" id="conheca_esg">
+            <div class="sobre_esg">
+                <p class="sobre_esg_titulo">O que é ESG?</p>
+                <p class="sobre_esg_texto">ESG (Environmental, Social and Corporate Governance) é um conjunto de boas
+                    práticas que devem ser implementadas por organizações, visando não apenas comprovar sua solidez e
+                    assegurar o crescimento sustentável, mas também evidenciar a preocupação com o meio ambiente e o
+                    bem-estar social. Em português, a sigla se traduz como ASG: Ambiental, Social e Governança.</p>
+            </div>
+            </div>
+            <img class=maos src="./img/maos.png" alt="Homem com blusa de frio branca">
+
+        </section>
+
+        <!-- Formulario -->
+        <section class="formulario">
+            <p class="formulario_titulo"> Com o que podemos ajudar?</p>
+
+
+            <div class="contato_modo alinhamento">
+
+                <div class="modo">
+                    <i class="fa-solid fa-envelope" id="icon"></i>
+                    <p class="titulo">E-mail</p>
+                    <p class="text">Tem alguma dúvida?</p>
+                    <p>Podemos te ajudar pelo nosso canal de email.</p>
+                    <p class="email_contato">contato@geto.com</p>
+                </div>
+
+                <div class="modo">
+                    <i class="fa-solid fa-phone" id="icon"></i>
+                    <p class="titulo">Ouvidoria</p>
+                    <p class="text">Tem alguma dúvida?</p>
+                    <p class="p2">(11) 1195193-9061</p>
+                    <button class="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Fale conosco pelo Whatsapp
+                    </button>
+                </div>
+
+                <div class="modo">
+                    <i class="fa-solid fa-comment" id="icon"></i>
+                    <p class="titulo">Chat</p>
+                    <p class="text">De Segunda à Sexta das
+                        10:00 às 16:00.</p>
+                        <button class="botao_chat" id="chat">
+                        Fale conosco pelo chat ao vivo
+                        </button>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- Contato -->
+        <section class="contato alinhamento" id="contato">
+            <p class="contato_titulo">Contato</p>
+
+            <div class="conteudo_contato">
+
+                <div class="borda_mapa">
+                    <iframe class='mapa'
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.669158428444!2d-46.56424498255615!3d-23.652016499999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce437a5cbcaec1%3A0x25fdf0e1beefc552!2sR.%20Quat%C3%A1%2C%20641%20-%20Vila%20Sacadura%20Cabral%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009061-380!5e0!3m2!1spt-BR!2sbr!4v1683745256404!5m2!1spt-BR!2sbr"
+                        height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="contato_info">
+                    <div class="info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(99)97072-3313</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>contato@geto.com</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Rua Quatá, 641 - Santo André</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>@geto</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-brands fa-tiktok"></i>
+                        <p>@geto</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>@geto</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados &#169; G&TO</p>
+    </footer>
+
+</body>
+
+</html>

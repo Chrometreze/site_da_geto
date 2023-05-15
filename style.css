@@ -1,0 +1,695 @@
+/*Importando a tipografia */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Unbounded&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    resize: none;
+}
+
+/* Variáveis CSS */
+:root {
+    --font-josefin: 'Josefin Sans', 'sans-serif';
+    --font-unbounded: 'Unbounded', 'cursive';
+    --verde: #1b3b27;
+    --branco_pastel: #EEE5DA;
+    --branco-escuro: #c8a0775a;
+}
+
+.alinhamento {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: var(--verde);
+    padding-top: 20px;
+    padding-bottom: -50px;
+}
+
+
+.logo {
+    width: 250px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    list-style: none;
+    text-align: center;
+    gap: 55px;
+    align-items: center;
+
+}
+
+.menu a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--font-unbounded);
+    font-weight: 700;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid var(--branco_pastel);
+    color: var(--branco_pastel);
+}
+
+/* Menu de interação */
+
+.interect_info {
+    font-family: var(--font-unbounded);
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: -450px;
+}
+
+.interect {
+    display: flex;
+    align-items: center;
+}
+
+.interect>i {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: var(--verde);
+}
+
+.interacoes {
+    display: flex;
+    background-color: var(--branco-escuro);
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.barradebusca {
+    display: flex;
+    align-items: center;
+}
+
+.barradebusca i {
+    position: absolute;
+    padding: 665px;
+}
+
+.test {
+    width: 700px;
+
+}
+
+/* .inputdabusca {
+    width: 100%;
+    border: 1px solid var(--branco_pastel);
+    border-radius: 15px;
+} */
+
+
+.alternativo {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.teste {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--verde);
+}
+
+.borda_alternativa {
+    width: 500px;
+    border: 1px solid var(--branco_pastel);
+    border-radius: 15px;
+}
+
+.dentro_test {
+    font-family: var(--font-unbounded);
+    font-size: 30px;
+}
+
+/* ---- Quem Somos ---- */
+main {
+    background-color: var(--branco_pastel);
+}
+
+h1 {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+.quem_somos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.primeira_foto {
+    width: 700px;
+    border: 8px solid var(--verde);
+    border-radius: 50px;
+}
+
+.sobre {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.sobre_titulo {
+    font-family: var(--font-unbounded);
+    font-size: 50px;
+}
+
+.sobre_texto {
+    font-family: var(--font-josefin);
+    font-size: 25px;
+}
+
+.btn_esg {
+    background: var(--verde);
+    border-radius: 30px;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn_esg a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Data de lançamento */
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-unbounded);
+    font-size: 60px;
+    color: var(--branco_pastel);
+    background-color: var(--verde);
+    padding: 100px;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+/* ----Imagens---- */
+.imagens {
+    background-color: var(--verde);
+    padding-bottom: 100px;
+
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imgs>* {
+    width: 1400px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.4);
+}
+
+.subtitulo_lancamento {
+    font-size: 30px;
+}
+
+/* ---- ESG ----*/
+.esg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.sobre_esg {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre_esg {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.sobre_esg_titulo {
+    font-family: var(--font-unbounded);
+    font-size: 50px;
+}
+
+.sobre_esg_texto {
+    font-family: var(--font_josefin);
+    font-size: 30px;
+}
+
+.esg img {
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.4);
+    width: 640px;
+    border: 8px solid var(--verde);
+    border-radius: 50px;
+}
+
+/* ---- Formulario ----*/
+
+.contato_modo {
+    display: flex;
+    flex-direction: row;
+    gap: 30;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 50px;
+}
+
+.modo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_contato{
+    color: rgb(136, 186, 255);
+    font-weight: 1300px;
+}
+
+/* icones? 
+.contato_modo i{
+}
+*/
+
+.titulo {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 20px;
+}
+
+#icon {
+    font-size: 96px;
+}
+
+.p2 {
+    font-weight: 700;
+    padding: 20px;
+}
+
+.whatsapp {
+    border-radius: 7px;
+    height: 40px;
+    border: 1px solid #25D366;
+    text-align: center;
+    padding: 10px;
+    color: #25D366;
+    background-color: var(--verde);
+
+}
+
+.botao_chat{
+    border-radius: 7px;
+    height: 40px;
+    border: 1px solid #CCFFC8;
+    text-align: center;
+    padding: 10px;
+    color: #CCFFC8;
+    background-color: var(--verde);
+}
+
+.text {
+    text-align: center;
+}
+
+.formulario {
+    background-color: var(--verde);
+    padding: 100px 0;
+}
+
+.formulario_titulo {
+    font-family: var(--font-unbounded);
+    font-size: 45px;
+    color: var(--branco_pastel);
+    text-align: center;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+form {
+    color: white;
+    font-family: var(--font-unbounded);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    height: 35px;
+    padding: 20px;
+}
+
+textarea {
+    padding: 20px;
+}
+
+.borda {
+    border: 1px solid var(--branco_pastel);
+    border-radius: 15px;
+}
+
+.btn_forms {
+    background: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    color: var(--verde);
+}
+
+/* ----- Contato -----*/
+
+.mapa {
+    width: 580px;
+}
+
+.contato {
+    padding: 100px 0;
+}
+
+.contato_titulo {
+    font-family: var(--font-unbounded);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.conteudo_contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.borda_mapa {
+    border: 5px solid var(--verde);
+    width: 700px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato_info {
+    font-family: var(--font-unbounded);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info>i {
+    margin-right: 20px;
+    color: var(--verde);
+}
+
+/* ----- footer ----- */
+footer {
+    background-color: var(--verde);
+    color: #fff;
+    font-family: var(--font_josefin);
+    font-size: 19px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---- Responsividade ---- */
+/* Largura das telas
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop:992px até 1200px
+Grandes telas: acima de 1200px */
+
+@media screen and (max-width:1440px) {
+
+    .interacoes {
+        padding: 15px;
+    }
+
+    .alinhamento {
+        width: 100%;
+    }
+
+    nav {
+        padding: 0 50px;
+    }
+
+    .sobre {
+        max-width: 500px;
+    }
+
+    .quem_somos {
+        padding: 100px 50px;
+    }
+
+    .imgs {
+        flex-wrap: wrap;
+    }
+
+    .sobre_esg_texto {
+        font-size: 26px;
+    }
+
+    .esg img {
+        width: 50%;
+    }
+
+    .esg {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .primeira_foto {
+        width: 550px;
+    }
+
+    .esg img {
+        width: 45%;
+    }
+
+    .sobre_esg {
+        width: 480px;
+    }
+
+    .sobre_esg_texto {
+        font-size: 22px;
+    }
+
+    .imgs img {
+        width: 800px;
+    }
+
+    .barradebusca {
+        width: 500px;
+    }
+
+    .iconesinterativos {
+        width: 2700px;
+    }
+
+    .borda_mapa {
+        margin: 60px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .quem_somos {
+        flex-direction: column;
+    }
+
+    .sobre {
+        margin-top: 30px;
+    }
+
+    .imgs {
+        gap: 50px;
+    }
+
+    .data {
+        font-size: 40px;
+    }
+
+    .esg {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .sobre_esg {
+        width: 600px;
+    }
+
+    .conteudo_contato {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    #burguer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #burguer {
+        display: block;
+        color: #FFFFFF;
+        font-size: 55px;
+    }
+
+    #itens {
+        position: absolute;
+        background-color: var(--verde);
+        /* ViewPort height (vh) */
+        height: 92vh;
+        /* viewPort width (vw) */
+        width: 50vw;
+        top: 20vh;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .menu li {
+        padding: 50px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .data {
+        font-size: 32px;
+    }
+
+    .subtitulo_lancamento {
+        font-size: 20px;
+    }
+
+    .imgs img {
+        width: 690px;
+    }
+
+    .contato_modo {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .primeira_foto {
+        width: 450px;
+    }
+
+    .data {
+        font-size: 35px;
+        text-align: center;
+        padding: 70px;
+    }
+
+    .imgs img {
+        width: 529px;
+    }
+
+    .esg img {
+        width: 70%;
+    }
+
+    .sobre_esg_texto {
+        padding: 0px 40px;
+    }
+
+    .mapa {
+        width: 400px;
+    }
+
+    .borda_mapa {
+        width: 480px;
+    }
+
+    .conteudo_contato {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contato_info {
+        font-size: 25px;
+    }
+}
